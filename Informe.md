@@ -8,7 +8,7 @@ Manejo Básico de Comandos en Linux: "Creación y manipulación de archivos y di
 Linux es un sistema operativo basada en la linea de comandos, lo que significa que la mayoria de las interacciones con el sistema se realizan a través de comandos escritos. Estos comandos permiten al usuario realiza tareas como navegar por directorios, crear y manipular archivos, administrar permisos y ejecutar programas. 
 
 <p align="center">
-  <img src="./image.png" alt="" width="110">
+  <img src="./assets/imagelinux.png" alt="" width="110">
 </p>
 
  #### Comandos para la manipulación de archivos y directorios
