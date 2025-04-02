@@ -1,31 +1,66 @@
-# Practica servidor web
+# Comandos Linux
 ## 1. Titulo
-Titulo desciptivo a la practica realizada
+Manejo Básico de Comandos en Linux: "Creación y manipulación de archivos y directorios".
 ## 2. Tiempo de duración
-Tiempo en minutos usados para desarrollar la práctica 
+90 minutos 
 ## 3. Fundamentos:
 
-Descripción de los conceptos para poder entender la practica, de al menos una *300* palabras, uso obligatorio de imágenes que ayuden la descripción de la teoría.
+Linux es un sistema operativo basada en la linea de comandos, lo que significa que la mayoria de las interacciones con el sistema se realizan a través de comandos escritos. Estos comandos permiten al usuario realiza tareas como navegar por directorios, crear y manipular archivos, administrar permisos y ejecutar programas. 
 
+<p align="center">
+  <img src="./image.png" alt="" width="110">
+</p>
+
+ #### Comandos para la manipulación de archivos y directorios
+
+ - **mkdir:** Se utiliza para la creacion de directorios.
+ - **touch:** Se utiliza para crear un archivo vacio. 
+ - **cp**: Se utiliza para copiar archivos o directorios.
+ - **mv**: Se utiliza para mover o renombrar archivos o directorios.
+ - **rm**: Elimina archivos o directorios.  
+
+#### Redirección y concatenación 
+
+    Es una característica que permite enviar la salida de un comando a un archivo o otro comando. Esto es util cuando queremos almacenar resultados o encadenar comandos. 
+
+      > : Redirige la salida de un comando a un archivo. Si el archivo ya existe, su contenido se sobrescribe.
+      >> : Agrega (sin sobrescribir) la salida de un comando a un archivo. 
+      cat: Muestra el contenido de un archivo o lo concatena con otros archivos.
+
+
+#### Eliminacion de archivos o directorios
+
+    
+
+      rm: Elimina archivos.
+      rmdir: Elimina directorios vacios.
+      rm -r: Elimina directorios y su contenido.
+
+         
 
 ## 4. Conocimientos previos.
    
-Para realizar esta practica el estudiante necesita tener claro los siguientes temas:
-- Comandos lux.
-- Manejo de navegador
-- etc, etc
+- Comandos Linux básicos.
+- Manejo de terminal o consola.
+- Uso de herramientas de edición como `nano` o `vim`.
+- Conocimiento básico de manejo de directorios en sistemas operativos basados en UNIX.
 
 ## 5. Objetivos a alcanzar
    
-- Implementar contenedores con nginx…..
-- Manipular archivos de configuración…..
+- Crear y manipular directorios y archivos mediante comandos Linux.
+- Aplicar redirección y concatenación de archivos en la terminal.
+- Eliminar archivos y directorios correctamente.
+
   
 ## 6. Equipo necesario:
   
-- Computador con sistema operativo Windows/Linux/Mac ...
-- Cuenta en docker play....
-- Docker v xxxx
-- etc.
+- **Computadora con sistema operativo Windows/Linux/Mac:** Se utilizó el sistema operativo Linux en una máquina con Ubuntu, pero también se puede realizar la práctica en otros sistemas operativos que tengan acceso a una terminal compatible con los comandos de Linux.
+
+- **Terminal de Linux:** La terminal es esencial para realizar las operaciones, ya que la práctica se realizó completamente mediante línea de comandos.
+
+- **Editor de texto:** Se emplearon editores de texto como nano o vim para modificar los archivos creados durante la práctica.
+
+- **Red de Internet:** Para consultar la documentación de los comandos y obtener material adicional de apoyo, como tutoriales y guías en línea.
 
 ## 7. Material de apoyo.
    
@@ -103,10 +138,35 @@ Para realizar esta practica el estudiante necesita tener claro los siguientes te
 </p>
 
 
-## 9. Resultados esperados:
-    
-Descripcion de los resultados, capturas de pantallas del resultado final de la practica
+## 9. Resultados
 
-## 10. Bibliografía
-    
-- Apellido,..... En apa
+Al finalizar la práctica, se verificó que las operaciones de creación, manipulación, redirección, concatenación y eliminación de archivos se realizaron correctamente, obteniendo los siguientes resultados:
+
+### Manipulación de archivos
+- Se creó la carpeta `proyecto_comandos` con las subcarpetas `documentos`, `imagenes` y `scripts`.
+- Dentro de `documentos`, se generó el archivo `notas.txt` y se añadieron tres líneas de texto correctamente.
+- Se copió `notas.txt` a `scripts` y se renombró como `backup_notas.txt`.
+- `backup_notas.txt` fue movido correctamente a la carpeta `imagenes`.
+
+### Redirección y concatenación
+- Se creó el archivo `resumen.txt` dentro de `documentos`.
+- Se redirigió el contenido de `notas.txt` a `resumen.txt`, verificando que el contenido era el mismo.
+- Se añadió una nueva línea a `resumen.txt` sin sobrescribir el contenido previo.
+
+### Eliminación de archivos y carpetas
+- Se eliminó `backup_notas.txt` de `imagenes`.
+- Se eliminó la carpeta `imagenes` después de confirmar que estaba vacía.
+
+Según los resultados obtenidos, podemos concluir que la práctica se completó con éxito, demostrando el uso de comandos básicos de manipulación de archivos en Linux.
+
+
+## 10. Bibliografía  
+
+Maguaman, M. (2024). *Gist Semana 1 - Comandos básicos Linux*. GitHub.  
+Disponible en [https://github.com/maguaman2/tendencias-tecnologicas/blob/main/gist-semana1-comandos-basicos-linux.md](https://github.com/maguaman2/tendencias-tecnologicas/blob/main/gist-semana1-comandos-basicos-linux.md)  
+
+Microsoft. (2024). *Instalar WSL en Windows*. Microsoft Docs.  
+Disponible en [https://learn.microsoft.com/es-es/windows/wsl/install](https://learn.microsoft.com/es-es/windows/wsl/install)  
+
+The Linux Foundation. (2024). *Introducción a Linux*.  
+Disponible en [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)  
