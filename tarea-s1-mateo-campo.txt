@@ -1,0 +1,107 @@
+    1  ls
+    2  tree
+    3  pwd
+    4  clear
+    5  mkdir proyecto_comandos
+    6  cd proyecto_comandos/
+    7  mkdir documentos imagenes scripts
+    8  cd documentos/
+    9  cd..
+   10  cd
+   11  ls 
+   12  ls
+   13  cd proyecto_comandos/
+   14  ls
+   15  cd documentos/
+   16  touch notas.txt
+   17  ls
+   18  echo "Hola"
+   19  ls
+   20  echo "Hola" > notas.txt
+   21  cat notas.txt
+   22  echo "Mundo" >> notas.txt
+   23  cat notas.txt
+   24  echo "Mateo" >> notas.txt
+   25  cat notas.txt
+   26  clear
+   27  cp notas.txt
+   28  cp notas.txt ./script
+   29  cd
+   30  cd doc
+   31  cd proyecto_comandos/
+   32  cd ls
+   33  ls
+   34  cd scripts
+   35  ls
+   36  cp notas.txt ./scripts
+   37  cd.
+   38  cd ..
+   39  clear
+   40  cd documentos/
+   41  cp notas.txt ./scripts
+   42  cd ..
+   43  cd scripts/
+   44  ls
+   45  cp --help
+   46  clear
+   47  cd ..
+   48  cd documentos/
+   49  cp notas.txt script/
+   50  cp notas.txt scripts/
+   51  cp notas.txt ../scripts/
+   52  cd ..
+   53  cd scripts/
+   54  ls
+   55  mv notas.txt backup_notas.txt
+   56  ls
+   57  cdcd ..
+   58  cd ..
+   59  cd documentos/
+   60  ls
+   61  mkdir script
+   62  rm script
+   63  rm scripts 
+   64  ls
+   65  clear
+   66  cd..
+   67  cd ..
+   68  cd scripts/
+   69  clear
+   70  mv backup_notas.txt ../imagenes/
+   71  ls
+   72  cd ..
+   73  cd imagenes/
+   74  ls
+   75  cd ..
+   76  mkdir resumen.txt /documentos
+   77  touch resumen.txt /documentos
+   78  sudo
+   79  sudo -s
+   80  cd proyecto_comandos/
+   81  cd documentos/
+   82  touch resumen.txt
+   83  ls
+   84  echo notas.txt > resumen.txt
+   85  ls
+   86  cat resumen.txt
+   87  rm resumen.txt
+   88  ls
+   89  ls 
+   90  touch resumen.txt
+   91  ls
+   92  cat notas.txt > resumen.txt
+   93  cat resumen.txt
+   94  echo "Software" >> resumen.txt
+   95  cat resumen.txt 
+   96  cd ..
+   97  cd scripts/
+   98  ls
+   99  cd ..
+  100  cd imagenes/
+  101  ls
+  102  rm backup_notas.txt 
+  103  ls
+  104  cd ..
+  105  rm -r imagenes
+  106  ls
+  107  history > tarea-s1-mateo-campo.txt
