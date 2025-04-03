@@ -42,7 +42,6 @@ Linux es un sistema operativo basada en la linea de comandos, lo que significa q
    
 - Comandos Linux básicos.
 - Manejo de terminal o consola.
-- Uso de herramientas de edición como `nano` o `vim`.
 - Conocimiento básico de manejo de directorios en sistemas operativos basados en UNIX.
 
 ## 5. Objetivos a alcanzar
@@ -64,10 +63,10 @@ Linux es un sistema operativo basada en la linea de comandos, lo que significa q
 
 ## 7. Material de apoyo.
    
-- Documentacion de docker.
+- Documentacion de Linux.
 - Guia de asignatura.
 - Cheat sheet linux
-- etc
+
   
 ## 8. Procedimiento
 
